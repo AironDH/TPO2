@@ -18,6 +18,9 @@
             <p>
                 Al completar el formulario lleva a la página con el javascript que rellena la tabla con los datos.
             </p>
+            <p>
+                *Estos campos son requeridos
+            </p>
         </aside>
 
         <section>
@@ -28,18 +31,18 @@
 
             <form class="flex arn" action="/html/datos.html" target="_top">
                 <fieldset>
-                    <label for="name">Nombre: </label><br>
-                    <input name="Nombre" id="name" type="text"><br>
+                    <label for="name">Nombre: *</label><br>
+                    <input required name="Nombre" id="name" type="text"><br>
                 
 
                 <br>
-                    <label for="adress">Apellido: </label><br>
-                    <input name="Apellido" id="adress" type="text"><br>
+                    <label for="adress">Apellido: *</label><br>
+                    <input required name="Apellido" id="adress" type="text"><br>
                 
 
                 <br>
-                    <label for="age">Edad: </label><br>
-                    <input name="Edad" id="age" type="number">
+                    <label for="age">Edad: *</label><br>
+                    <input required name="Edad" id="age" type="number">
                 </fieldset>
 
                 <fieldset>
