@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/estilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e33ba134bb.js" crossorigin="anonymous"></script>
+    <title>Cavilaciones Blog</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="/logo/logo.png" alt="Logo">
+
+        <div class="blog-name">
+            <h1>
+                Cavilaciones
+            </h1>
+
+            <p class="slogan">
+                Un blog efímero
+            </p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="m-holdr">
+            <a class="menu art" href="/index.html">
+                Principal
+            </a>
+
+            <a class="menu art" href="/Formulario.html">
+                Formulario
+            </a>
+    
+            <a class="menu art" href="galeria.html">
+                Galería
+            </a>
+    
+            <a class="menu art" href="videos.html">
+                Videos recomendados
+            </a>
+        </div>
+
+        <script async src="https://cse.google.com/cse.js?cx=7997baefed9d80fe1"></script>
+        <div class="gcse-search"></div>
+    </nav>
+
+    <main>
+        <aside>
+            <h3>
+                Estructura básica.
+            </h3>
+            <p>
+                Escribe algo aquí
+            </p>
+        </aside>
+
+        <section>
+    
+                </article>
+            </a>
+        </section>
+    </main>
+
+    <footer>
+
+        <p> 
+            <p class="in-blk">Airon Hernández</p>
+            <p class="in-blk">
+                <i class="fas fa-phone-square"> 0000000000</i>  <br> 
+                <i class="fas fa-envelope"> prueba@gmail.com</i>  <br>
+                <i class="fab fa-instagram-square"> Cuentarandom</i> <br>
+            </p>
+        </p>
+
+        <p> Entrega 4 de Codo a Codo.</p>
+    </footer>
+</body>
+</html>
