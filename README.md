@@ -1,3 +1,5 @@
 # TPO2
 TPO con Javascript para unificar lo repetitivo, cada sección que se repite en cada página está en un .js,
-el Header es variable, así que su .js es una función a la que hay que llamar onload
+el Header es variable, así que su .js es una función a la que hay que llamar onload.
+
+Se han añadido elementos en galería mediante un .js, los elementos tienen un modal asociado.
