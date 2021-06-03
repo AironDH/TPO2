@@ -92,19 +92,7 @@ window.onclick = function(event) {
 
     // Abrir el modal clicando en cualquier parte de la tarjeta, el foreach es para aplicarlo a todas.
     dibujo.forEach(dibujo => {
-        if (event.target == link_a[dibujo.num]){
-            ima.setAttribute("src", dibujo.src);
-            ima.setAttribute("alt", dibujo.alt);
-            modal.style.display = "block";
-        }
-
-        if (event.target == link_b[dibujo.num]){
-            ima.setAttribute("src", dibujo.src);
-            ima.setAttribute("alt", dibujo.alt);
-            modal.style.display = "block";
-        }
-
-        if (event.target == link_c[dibujo.num]){
+        if (event.target == link_a[dibujo.num] || event.target == link_b[dibujo.num] || event.target == link_c[dibujo.num]){
             ima.setAttribute("src", dibujo.src);
             ima.setAttribute("alt", dibujo.alt);
             modal.style.display = "block";
