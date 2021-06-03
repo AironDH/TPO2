@@ -1,3 +1,4 @@
+// imprime el footer en donde se inserte el script
 var footer=`<footer>
 
 <p> 

@@ -1,3 +1,4 @@
+// imprime la barra de navegación
 var nav_cont=
 `<div class="m-holdr">
     <a class="menu art" href="/index.html">

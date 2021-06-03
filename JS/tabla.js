@@ -1,3 +1,4 @@
+// Hace una tabla con los datos del formulario
 var args = location.search.substr(1).split('&');
 for (var i = 0; i < args.length; ++i) {
   var parts = args[i].split('=');
@@ -8,7 +9,7 @@ for (var i = 0; i < args.length; ++i) {
       value = "null"
     }
     else {
-      value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
+      value = unescape(value.replace(/\+/g, ' '));
     }
 
     document.writeln('<tr><th id="field">' + field + '</th>');
