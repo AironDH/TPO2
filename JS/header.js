@@ -14,6 +14,5 @@ function f_header(slogan) {
                     </div>
                 </header>`;
 
-
     return document.write(header);
   }

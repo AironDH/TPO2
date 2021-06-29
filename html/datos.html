@@ -16,7 +16,14 @@
     <main>
         <aside>
             <p>
-                Este código tiene problemas con los caracteres tildados, hay que buscar una solución para poder utilizarlo en algo más
+                Este código tiene problemas con los caracteres tildados, 
+                hay que buscar una solución para poder utilizarlo en algo más
+            </p>
+
+            <p>
+                Problema solucionado, la falla era causada porque se obtienen los datos del URL, 
+                y eso viene codificado. Al no haber nunca una decodificación javascript lo interpretaba mal. 
+                Al usar decodeURI en el valor que se va a imprimir se resuelve el problema.
             </p>
         </aside>
 
