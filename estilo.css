@@ -62,7 +62,7 @@ nav{
 main{
     display: flex;
     width: 100%;
-    margin: 5vw 0vw;
+    margin: 1vw 0vw;
     flex-wrap: wrap-reverse;
     flex-direction: row-reverse;
 }
